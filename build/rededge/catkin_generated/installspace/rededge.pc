@@ -1,0 +1,8 @@
+prefix=/home/asctec/catkin_ws/install
+
+Name: rededge
+Description: Description of rededge
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/asctec/catkin_ws/install/lib 
+Requires: 

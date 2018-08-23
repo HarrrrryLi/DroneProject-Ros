@@ -1,0 +1,8 @@
+prefix=/home/asctec/catkin_ws/devel
+
+Name: asctec_msgs
+Description: Description of asctec_msgs
+Version: 1.0.0
+Cflags: -I/home/asctec/catkin_ws/devel/include -I/home/asctec/catkin_ws/src/asctec_drivers/asctec_msgs/include
+Libs: -L/home/asctec/catkin_ws/devel/lib 
+Requires: message_runtime std_msgs

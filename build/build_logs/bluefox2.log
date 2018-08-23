@@ -1,0 +1,173 @@
+[[36mbluefox2[0m] [1m[34m==>[0m '[1m/home/asctec/catkin_ws/build/bluefox2/build_env.sh /usr/bin/cmake /home/asctec/catkin_ws/src/bluefox2 -DCATKIN_DEVEL_PREFIX=/home/asctec/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/asctec/catkin_ws/install[0m' [30m[1min[0m '[1m/home/asctec/catkin_ws/build/bluefox2[0m'[0m
+[36m-- [0mThe C compiler identification is GNU 4.8.4
+[0m[36m-- [0mThe CXX compiler identification is GNU 4.8.4
+[0m[36m-- [0mCheck for working C compiler:[33m /usr/bin/cc
+[0m[0m[36m-- [0mCheck for working C compiler:[33m /usr/bin/cc -- works
+[0m[0m[36m-- [0mDetecting C compiler ABI info
+[0m[36m-- [0mDetecting C compiler ABI info - done
+[0m[36m-- [0mCheck for working CXX compiler:[33m /usr/bin/c++
+[0m[0m[36m-- [0mCheck for working CXX compiler:[33m /usr/bin/c++ -- works
+[0m[0m[36m-- [0mDetecting CXX compiler ABI info
+[0m[36m-- [0mDetecting CXX compiler ABI info - done
+[0m[36m-- [0mUsing CATKIN_DEVEL_PREFIX:[33m /home/asctec/catkin_ws/devel
+[0m[0m[36m-- [0mUsing CMAKE_PREFIX_PATH:[33m /home/asctec/catkin_ws/install;/home/asctec/catkin_ws/devel;/opt/ros/jade
+[0m[0m[36m-- [0mThis workspace overlays:[33m /home/asctec/catkin_ws/devel;/opt/ros/jade
+[0m[0m[36m-- [0mFound PythonInterp:[33m /usr/bin/python (found version "2.7.6") 
+[0m[0m[36m-- [0mUsing PYTHON_EXECUTABLE:[33m /usr/bin/python
+[0m[0m[36m-- [0mUsing Debian Python package layout
+[0m[36m-- [0mUsing empy:[33m /usr/bin/empy
+[0m[0m[36m-- [0mUsing CATKIN_ENABLE_TESTING:[33m ON
+[0m[0m[36m-- [0mCall enable_testing()
+[0m[36m-- [0mUsing CATKIN_TEST_RESULTS_DIR:[33m /home/asctec/catkin_ws/build/bluefox2/test_results
+[0m[0m[36m-- [0mLooking for include file pthread.h
+[0m[36m-- [0mLooking for include file pthread.h - found
+[0m[36m-- [0mLooking for pthread_create
+[0m[36m-- [0mLooking for pthread_create - not found
+[0m[36m-- [0mLooking for pthread_create in pthreads
+[0m[36m-- [0mLooking for pthread_create in pthreads - not found
+[0m[36m-- [0mLooking for pthread_create in pthread
+[0m[36m-- [0mLooking for pthread_create in pthread - found
+[0m[36m-- [0mFound Threads:[33m TRUE  
+[0m[0m[36m-- [0mFound gtest sources under '/usr/src/gtest':[33m gtests will be built
+[0m[0m[36m-- [0mUsing Python nosetests:[33m /usr/bin/nosetests-2.7
+[0m[0m[36m-- [0mcatkin 0.6.14
+[0m[36m-- [0mUsing these message generators:[33m gencpp;geneus;genlisp;genpy
+[0m[0m[36m-- [0mmvimpact include dir found:[33m /home/asctec/catkin_ws/src/bluefox2/mvIMPACT/include
+[0m[0m[36m-- [0mmvimpact library dir found:[33m /home/asctec/catkin_ws/src/bluefox2/mvIMPACT/lib/x86_64/
+[0m[0m[36m-- [0mFound Mvimpact:[33m /home/asctec/catkin_ws/src/bluefox2/mvIMPACT/include  
+[0m[0m[36m-- [0mBoost version:[33m 1.54.0
+[0m[0m[36m-- [0mFound the following Boost libraries:[33m
+[0m[0m[36m-- [0m  program_options
+[0m[36m-- [0mbluefox2:[33m 0 messages, 1 services
+[0m[0m[36m-- [0mConfiguring done
+[0m[36m-- [0mGenerating done
+[0m[36m-- [0mBuild files have been written to:[33m /home/asctec/catkin_ws/build/bluefox2
+[0m[0m[[36mbluefox2[0m] [32m<==[0m '[1m/home/asctec/catkin_ws/build/bluefox2/build_env.sh /usr/bin/cmake /home/asctec/catkin_ws/src/bluefox2 -DCATKIN_DEVEL_PREFIX=/home/asctec/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/asctec/catkin_ws/install[0m' finished with return code '[1m0[0m'[0m
+[[36mbluefox2[0m] [1m[34m==>[0m '[1m/home/asctec/catkin_ws/build/bluefox2/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' [30m[1min[0m '[1m/home/asctec/catkin_ws/build/bluefox2[0m'[0m
+[35m[1mScanning dependencies of target _bluefox2_generate_messages_check_deps_SetExposeSrv
+[0m[35m[1mScanning dependencies of target bluefox2_gencfg
+[0m[35m[1mScanning dependencies of target std_msgs_generate_messages_py
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp
+[0m[0m[35m[1mScanning dependencies of target std_msgs_generate_messages_eus
+[  5%] [0m[34m[1mGenerating dynamic reconfigure files from cfg/Bluefox2Dyn.cfg: /home/asctec/catkin_ws/devel/include/bluefox2/Bluefox2DynConfig.h /home/asctec/catkin_ws/devel/lib/python2.7/dist-packages/bluefox2/cfg/Bluefox2DynConfig.py
+[0m[  5%] [  5%] [  5%] Built target std_msgs_generate_messages_eus
+Built target std_msgs_generate_messages_cpp
+Built target std_msgs_generate_messages_py
+[35m[1mScanning dependencies of target nodelet_generate_messages_py
+[0m[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_cpp
+[0m[  5%] [35m[1mScanning dependencies of target std_msgs_generate_messages_lisp
+[0mBuilt target _bluefox2_generate_messages_check_deps_SetExposeSrv
+[  5%] [  5%] Built target nodelet_generate_messages_py
+Built target rosgraph_msgs_generate_messages_cpp
+[  5%] Built target std_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target roscpp_generate_messages_cpp
+[0m[35m[1mScanning dependencies of target roscpp_generate_messages_lisp
+[0m[35m[1mScanning dependencies of target roscpp_generate_messages_py
+[35m[1mScanning dependencies of target roscpp_generate_messages_eus
+[0m[0m[  5%] [  5%] [  5%] Built target roscpp_generate_messages_cpp
+Built target roscpp_generate_messages_lisp
+[  5%] Built target roscpp_generate_messages_eus
+Generating reconfiguration files for Bluefox2Dyn in bluefox2
+Built target roscpp_generate_messages_py
+[35m[1mScanning dependencies of target nodelet_generate_messages_cpp
+[0m[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_py
+[0m[35m[1mScanning dependencies of target bond_generate_messages_cpp
+[0mWrote header file in /home/asctec/catkin_ws/devel/include/bluefox2/Bluefox2DynConfig.h
+[  5%] Built target nodelet_generate_messages_cpp
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_lisp
+[0m[  5%] [  5%] Built target rosgraph_msgs_generate_messages_py
+Built target bond_generate_messages_cpp
+[  5%] [  5%] Built target rosgraph_msgs_generate_messages_lisp
+Built target bluefox2_gencfg
+[35m[1mScanning dependencies of target bond_generate_messages_lisp
+[0m[35m[1mScanning dependencies of target nodelet_generate_messages_lisp
+[0m[35m[1mScanning dependencies of target bond_generate_messages_eus
+[0m[35m[1mScanning dependencies of target bond_generate_messages_py
+[0m[35m[1mScanning dependencies of target diagnostic_msgs_generate_messages_lisp
+[  5%] [0mBuilt target bond_generate_messages_lisp
+[  5%] Built target nodelet_generate_messages_lisp
+[  5%] [  5%] [  5%] Built target bond_generate_messages_eus
+Built target bond_generate_messages_py
+Built target diagnostic_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target dynamic_reconfigure_gencfg
+[0m[35m[1mScanning dependencies of target sensor_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target nodelet_generate_messages_eus
+[0m[0m[35m[1mScanning dependencies of target sensor_msgs_generate_messages_eus
+[0m[35m[1mScanning dependencies of target sensor_msgs_generate_messages_lisp
+[  5%] [0mBuilt target dynamic_reconfigure_gencfg
+[  5%] [  5%] Built target nodelet_generate_messages_eus
+Built target sensor_msgs_generate_messages_cpp
+[  5%] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_py
+[0mBuilt target sensor_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_cpp
+[  5%] [0m[35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_lisp
+[0mBuilt target sensor_msgs_generate_messages_eus
+[  5%] [  5%] Built target sensor_msgs_generate_messages_py
+[35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_py
+[  5%] [0mBuilt target dynamic_reconfigure_generate_messages_cpp
+Built target dynamic_reconfigure_generate_messages_lisp
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_eus
+[0m[35m[1mScanning dependencies of target diagnostic_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target diagnostic_msgs_generate_messages_py
+[0m[0m[35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp
+[0m[  5%] Built target dynamic_reconfigure_generate_messages_py
+[  5%] Built target rosgraph_msgs_generate_messages_eus
+[  5%] [  5%] [  5%] Built target diagnostic_msgs_generate_messages_py
+Built target diagnostic_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus
+Built target geometry_msgs_generate_messages_cpp
+[0m[35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp
+[  5%] [0m[35m[1mScanning dependencies of target diagnostic_msgs_generate_messages_eus
+Built target geometry_msgs_generate_messages_eus
+[0m[35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_eus
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_py
+[0m[0m[35m[1mScanning dependencies of target bluefox2_generate_messages_eus
+[0m[  5%] [  5%] Built target geometry_msgs_generate_messages_lisp
+[  5%] Built target geometry_msgs_generate_messages_py
+Built target diagnostic_msgs_generate_messages_eus
+[  5%] [ 10%] Built target dynamic_reconfigure_generate_messages_eus
+[ 15%] [34m[1mGenerating EusLisp code from bluefox2/SetExposeSrv.srv
+[0m[35m[1mScanning dependencies of target bluefox2_generate_messages_py
+[0m[35m[1mScanning dependencies of target bluefox2_generate_messages_lisp
+[0m[35m[1mScanning dependencies of target bluefox2_generate_messages_cpp
+[34m[1mGenerating EusLisp manifest code for bluefox2
+[0m[0m[ 26%] [ 26%] [ 31%] [34m[1mGenerating Python code from SRV bluefox2/SetExposeSrv
+[0m[34m[1mGenerating Lisp code from bluefox2/SetExposeSrv.srv
+[0m[34m[1mGenerating C++ code from bluefox2/SetExposeSrv.srv
+[0m[ 36%] [34m[1mGenerating Python srv __init__.py for bluefox2
+[0m[ 36%] Built target bluefox2_generate_messages_lisp
+[ 36%] Built target bluefox2_generate_messages_py
+[ 36%] Built target bluefox2_generate_messages_cpp
+[35m[1mScanning dependencies of target bluefox2_gencpp
+[0m[ 36%] Built target bluefox2_gencpp
+[ 36%] Built target bluefox2_generate_messages_eus
+[35m[1mScanning dependencies of target bluefox2_generate_messages
+[0m[35m[1mScanning dependencies of target bluefox2
+[ 36%] Built target bluefox2_generate_messages
+[0m[ 42%] [ 47%] [ 52%] [ 57%] [ 63%] [32mBuilding CXX object src/CMakeFiles/bluefox2.dir/bluefox2_ros.cpp.o
+[0m[32mBuilding CXX object src/CMakeFiles/bluefox2.dir/bluefox2.cpp.o
+[0m[32mBuilding CXX object src/CMakeFiles/bluefox2.dir/bluefox2_setting.cpp.o
+[0m[32mBuilding CXX object src/CMakeFiles/bluefox2.dir/single/single_node.cpp.o
+[0m[32mBuilding CXX object src/CMakeFiles/bluefox2.dir/stereo/stereo_node.cpp.o
+[0m[ 68%] [32mBuilding CXX object src/CMakeFiles/bluefox2.dir/single/single_nodelet.cpp.o
+[0m[ 73%] [32mBuilding CXX object src/CMakeFiles/bluefox2.dir/stereo/stereo_nodelet.cpp.o
+[0m[ 78%] [32mBuilding CXX object src/CMakeFiles/bluefox2.dir/multi/multi_node.cpp.o
+[0m[31m[1mLinking CXX shared library /home/asctec/catkin_ws/devel/lib/libbluefox2.so
+[0m[ 78%] Built target bluefox2
+[35m[1mScanning dependencies of target single_node
+[35m[1mScanning dependencies of target stereo_node
+[35m[1mScanning dependencies of target multi_node
+[35m[1mScanning dependencies of target list_cameras
+[0m[ 84%] [32mBuilding CXX object src/CMakeFiles/list_cameras.dir/list_cameras.cpp.o
+[0m[0m[0m[0m[ 89%] [ 94%] [100%] [32mBuilding CXX object src/CMakeFiles/multi_node.dir/multi/multi_main.cpp.o
+[0m[32mBuilding CXX object src/CMakeFiles/single_node.dir/single/single_main.cpp.o
+[0m[32mBuilding CXX object src/CMakeFiles/stereo_node.dir/stereo/stereo_main.cpp.o
+[0m[31m[1mLinking CXX executable /home/asctec/catkin_ws/devel/lib/bluefox2/list_cameras
+[0m[100%] Built target list_cameras
+[31m[1mLinking CXX executable /home/asctec/catkin_ws/devel/lib/bluefox2/multi_node
+[0m[31m[1mLinking CXX executable /home/asctec/catkin_ws/devel/lib/bluefox2/single_node
+[0m[100%] Built target multi_node
+[100%] Built target single_node
+[31m[1mLinking CXX executable /home/asctec/catkin_ws/devel/lib/bluefox2/stereo_node
+[0m[100%] Built target stereo_node
+[[36mbluefox2[0m] [32m<==[0m '[1m/home/asctec/catkin_ws/build/bluefox2/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' finished with return code '[1m0[0m'[0m

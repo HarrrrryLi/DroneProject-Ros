@@ -1,0 +1,109 @@
+[[36masctec_msgs[0m] [1m[34m==>[0m '[1m/home/asctec/catkin_ws/build/asctec_msgs/build_env.sh /usr/bin/cmake /home/asctec/catkin_ws/src/asctec_drivers/asctec_msgs -DCATKIN_DEVEL_PREFIX=/home/asctec/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/asctec/catkin_ws/install[0m' [30m[1min[0m '[1m/home/asctec/catkin_ws/build/asctec_msgs[0m'[0m
+[36m-- [0mThe C compiler identification is GNU 4.8.4
+[0m[36m-- [0mThe CXX compiler identification is GNU 4.8.4
+[0m[36m-- [0mCheck for working C compiler:[33m /usr/bin/cc
+[0m[0m[36m-- [0mCheck for working C compiler:[33m /usr/bin/cc -- works
+[0m[0m[36m-- [0mDetecting C compiler ABI info
+[0m[36m-- [0mDetecting C compiler ABI info - done
+[0m[36m-- [0mCheck for working CXX compiler:[33m /usr/bin/c++
+[0m[0m[36m-- [0mCheck for working CXX compiler:[33m /usr/bin/c++ -- works
+[0m[0m[36m-- [0mDetecting CXX compiler ABI info
+[0m[36m-- [0mDetecting CXX compiler ABI info - done
+[0m[36m-- [0mUsing CATKIN_DEVEL_PREFIX:[33m /home/asctec/catkin_ws/devel
+[0m[0m[36m-- [0mUsing CMAKE_PREFIX_PATH:[33m /home/asctec/catkin_ws/install;/home/asctec/catkin_ws/devel;/opt/ros/jade
+[0m[0m[36m-- [0mThis workspace overlays:[33m /home/asctec/catkin_ws/devel;/opt/ros/jade
+[0m[0m[36m-- [0mFound PythonInterp:[33m /usr/bin/python (found version "2.7.6") 
+[0m[0m[36m-- [0mUsing PYTHON_EXECUTABLE:[33m /usr/bin/python
+[0m[0m[36m-- [0mUsing Debian Python package layout
+[0m[36m-- [0mUsing empy:[33m /usr/bin/empy
+[0m[0m[36m-- [0mUsing CATKIN_ENABLE_TESTING:[33m ON
+[0m[0m[36m-- [0mCall enable_testing()
+[0m[36m-- [0mUsing CATKIN_TEST_RESULTS_DIR:[33m /home/asctec/catkin_ws/build/asctec_msgs/test_results
+[0m[0m[36m-- [0mLooking for include file pthread.h
+[0m[36m-- [0mLooking for include file pthread.h - found
+[0m[36m-- [0mLooking for pthread_create
+[0m[36m-- [0mLooking for pthread_create - not found
+[0m[36m-- [0mLooking for pthread_create in pthreads
+[0m[36m-- [0mLooking for pthread_create in pthreads - not found
+[0m[36m-- [0mLooking for pthread_create in pthread
+[0m[36m-- [0mLooking for pthread_create in pthread - found
+[0m[36m-- [0mFound Threads:[33m TRUE  
+[0m[0m[36m-- [0mFound gtest sources under '/usr/src/gtest':[33m gtests will be built
+[0m[0m[36m-- [0mUsing Python nosetests:[33m /usr/bin/nosetests-2.7
+[0m[0m[36m-- [0mcatkin 0.6.14
+[0m[36m-- [0mUsing these message generators:[33m gencpp;geneus;genlisp;genpy
+[0m[0m[36m-- [0masctec_msgs:[33m 8 messages, 0 services
+[0m[0m[36m-- [0mConfiguring done
+[0m[36m-- [0mGenerating done
+[0m[36m-- [0mBuild files have been written to:[33m /home/asctec/catkin_ws/build/asctec_msgs
+[0m[0m[[36masctec_msgs[0m] [32m<==[0m '[1m/home/asctec/catkin_ws/build/asctec_msgs/build_env.sh /usr/bin/cmake /home/asctec/catkin_ws/src/asctec_drivers/asctec_msgs -DCATKIN_DEVEL_PREFIX=/home/asctec/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/asctec/catkin_ws/install[0m' finished with return code '[1m0[0m'[0m
+[[36masctec_msgs[0m] [1m[34m==>[0m '[1m/home/asctec/catkin_ws/build/asctec_msgs/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' [30m[1min[0m '[1m/home/asctec/catkin_ws/build/asctec_msgs[0m'[0m
+[35m[1mScanning dependencies of target _asctec_msgs_generate_messages_check_deps_ControllerOutput
+[35m[1mScanning dependencies of target _asctec_msgs_generate_messages_check_deps_IMUCalcData
+[0m[35m[1mScanning dependencies of target _asctec_msgs_generate_messages_check_deps_RCData
+[35m[1mScanning dependencies of target _asctec_msgs_generate_messages_check_deps_CtrlInput
+[0m[0m[0m[35m[1mScanning dependencies of target _asctec_msgs_generate_messages_check_deps_IMURawData
+[0m[35m[1mScanning dependencies of target _asctec_msgs_generate_messages_check_deps_LLStatus
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py
+[0m[0m[  0%] Built target std_msgs_generate_messages_py
+[35m[1mScanning dependencies of target _asctec_msgs_generate_messages_check_deps_GPSData
+[0m[  0%] [  0%] Built target _asctec_msgs_generate_messages_check_deps_CtrlInput
+[  0%] [  0%] Built target _asctec_msgs_generate_messages_check_deps_IMURawData
+Built target _asctec_msgs_generate_messages_check_deps_ControllerOutput
+[  0%] Built target _asctec_msgs_generate_messages_check_deps_RCData
+Built target _asctec_msgs_generate_messages_check_deps_LLStatus
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp
+[0m[35m[1mScanning dependencies of target _asctec_msgs_generate_messages_check_deps_GPSDataAdvanced
+[0m[  0%] [35m[1mScanning dependencies of target std_msgs_generate_messages_eus
+[  0%] Built target _asctec_msgs_generate_messages_check_deps_IMUCalcData
+Built target std_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp
+[0m[0m[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target _asctec_msgs_generate_messages_check_deps_GPSData
+[  0%] Built target _asctec_msgs_generate_messages_check_deps_GPSDataAdvanced
+[35m[1mScanning dependencies of target asctec_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target asctec_msgs_generate_messages_py
+[35m[1mScanning dependencies of target asctec_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target asctec_msgs_generate_messages_lisp
+[0m[0m[0m[0m[  5%] [  5%] [  8%] [ 11%] [ 14%] [ 17%] [34m[1mGenerating Python from MSG asctec_msgs/GPSData
+[0m[34m[1mGenerating Python from MSG asctec_msgs/IMUCalcData
+[0m[34m[1mGenerating Lisp code from asctec_msgs/IMUCalcData.msg
+[0m[ 20%] [34m[1mGenerating Lisp code from asctec_msgs/GPSData.msg
+[0m[34m[1mGenerating C++ code from asctec_msgs/GPSData.msg
+[0m[34m[1mGenerating EusLisp code from asctec_msgs/GPSData.msg
+[0m[34m[1mGenerating Lisp code from asctec_msgs/ControllerOutput.msg
+[0m[ 23%] [ 26%] [34m[1mGenerating Lisp code from asctec_msgs/IMURawData.msg
+[0m[ 32%] [ 32%] [34m[1mGenerating C++ code from asctec_msgs/IMUCalcData.msg
+[0m[ 35%] [34m[1mGenerating Lisp code from asctec_msgs/CtrlInput.msg
+[0m[ 38%] [34m[1mGenerating Python from MSG asctec_msgs/ControllerOutput
+[0m[34m[1mGenerating Lisp code from asctec_msgs/RCData.msg
+[0m[34m[1mGenerating EusLisp code from asctec_msgs/IMUCalcData.msg
+[0m[ 41%] [ 44%] [34m[1mGenerating EusLisp code from asctec_msgs/ControllerOutput.msg
+[0m[ 47%] [34m[1mGenerating Lisp code from asctec_msgs/LLStatus.msg
+[0m[ 50%] [34m[1mGenerating EusLisp code from asctec_msgs/IMURawData.msg
+[0m[ 52%] [34m[1mGenerating Python from MSG asctec_msgs/IMURawData
+[0m[34m[1mGenerating EusLisp code from asctec_msgs/CtrlInput.msg
+[0m[ 55%] [34m[1mGenerating C++ code from asctec_msgs/ControllerOutput.msg
+[0m[ 58%] [ 61%] [ 64%] [34m[1mGenerating Lisp code from asctec_msgs/GPSDataAdvanced.msg
+[0m[34m[1mGenerating C++ code from asctec_msgs/IMURawData.msg
+[0m[34m[1mGenerating EusLisp code from asctec_msgs/RCData.msg
+[0m[ 67%] [ 70%] [34m[1mGenerating Python from MSG asctec_msgs/CtrlInput
+[0m[34m[1mGenerating C++ code from asctec_msgs/CtrlInput.msg
+[0m[ 73%] [34m[1mGenerating C++ code from asctec_msgs/RCData.msg
+[0m[ 73%] Built target asctec_msgs_generate_messages_lisp
+[ 76%] [ 79%] [ 82%] [34m[1mGenerating Python from MSG asctec_msgs/RCData
+[0m[34m[1mGenerating EusLisp code from asctec_msgs/LLStatus.msg
+[0m[34m[1mGenerating EusLisp code from asctec_msgs/GPSDataAdvanced.msg
+[0m[ 85%] [34m[1mGenerating Python from MSG asctec_msgs/LLStatus
+[0m[ 88%] [ 94%] [ 94%] [34m[1mGenerating Python from MSG asctec_msgs/GPSDataAdvanced
+[34m[1mGenerating EusLisp manifest code for asctec_msgs
+[0m[0m[34m[1mGenerating C++ code from asctec_msgs/LLStatus.msg
+[0m[ 97%] [34m[1mGenerating C++ code from asctec_msgs/GPSDataAdvanced.msg
+[0m[100%] [34m[1mGenerating Python msg __init__.py for asctec_msgs
+[0m[100%] Built target asctec_msgs_generate_messages_py
+[100%] Built target asctec_msgs_generate_messages_cpp
+[100%] Built target asctec_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target asctec_msgs_generate_messages
+[0m[100%] Built target asctec_msgs_generate_messages
+[[36masctec_msgs[0m] [32m<==[0m '[1m/home/asctec/catkin_ws/build/asctec_msgs/build_env.sh /usr/bin/make --jobserver-fds=3,4 -j[0m' finished with return code '[1m0[0m'[0m

@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "asctec_msgs")
+set(asctec_msgs_MAINTAINER "Jose Luis Sanchez-Lopez <jl.sanchez@upm.es>")
+set(asctec_msgs_DEPRECATED "")
+set(asctec_msgs_VERSION "1.0.0")
+set(asctec_msgs_BUILD_DEPENDS "message_generation" "std_msgs")
+set(asctec_msgs_RUN_DEPENDS "message_runtime" "std_msgs")
+set(asctec_msgs_BUILDTOOL_DEPENDS "catkin")

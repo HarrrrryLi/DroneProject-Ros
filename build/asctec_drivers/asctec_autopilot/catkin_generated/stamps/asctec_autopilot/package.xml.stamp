@@ -1,0 +1,32 @@
+<package>
+	<name>asctec_autopilot</name>
+	<version>1.0.0</version>
+	<description>
+    		This package is asctec_autopilot. A catkinized version of the asctec_drivers: https://github.com/ccny-ros-pkg/asctec_drivers 
+	</description>
+	<author email="jl.sanchez@upm.es">William Morris, Ivan Dryanovski, Steven Bellens, Patrick Bouffard et al.</author>
+	<maintainer email="jl.sanchez@upm.es">Jose Luis Sanchez-Lopez</maintainer>
+  	<license>BSD</license>
+	<url>http://ros.org/wiki/asctec_autopilot</url>
+
+  	<buildtool_depend>catkin</buildtool_depend>
+
+	
+  	<build_depend>roscpp</build_depend>
+	<build_depend>nodelet</build_depend>
+  	<build_depend>geometry_msgs</build_depend>
+  	<build_depend>sensor_msgs</build_depend>
+  	<build_depend>nav_msgs</build_depend>
+  	<build_depend>asctec_msgs</build_depend>
+  	<build_depend>diagnostic_updater</build_depend>
+
+  	<run_depend>roscpp</run_depend>
+	<run_depend>nodelet</run_depend>
+  	<run_depend>geometry_msgs</run_depend>
+  	<run_depend>sensor_msgs</run_depend>
+  	<run_depend>nav_msgs</run_depend>
+  	<run_depend>asctec_msgs</run_depend>
+  	<run_depend>diagnostic_updater</run_depend>
+
+
+</package>

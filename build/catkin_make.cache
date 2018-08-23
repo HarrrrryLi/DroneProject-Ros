@@ -1,0 +1,2 @@
+asctec_drivers/asctec_autopilot:asctec_drivers/asctec_msgs:bluefox2:camera_base:laser_proc:read_sensor:rededge:urg_c:urg_node
+-DCATKIN_DEVEL_PREFIX=/home/asctec/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/asctec/catkin_ws/install -G Unix Makefiles

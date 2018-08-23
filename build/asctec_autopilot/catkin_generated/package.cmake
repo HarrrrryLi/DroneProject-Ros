@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "asctec_autopilot")
+set(asctec_autopilot_MAINTAINER "Jose Luis Sanchez-Lopez <jl.sanchez@upm.es>")
+set(asctec_autopilot_DEPRECATED "")
+set(asctec_autopilot_VERSION "1.0.0")
+set(asctec_autopilot_BUILD_DEPENDS "roscpp" "nodelet" "geometry_msgs" "sensor_msgs" "nav_msgs" "asctec_msgs" "diagnostic_updater")
+set(asctec_autopilot_RUN_DEPENDS "roscpp" "nodelet" "geometry_msgs" "sensor_msgs" "nav_msgs" "asctec_msgs" "diagnostic_updater")
+set(asctec_autopilot_BUILDTOOL_DEPENDS "catkin")
